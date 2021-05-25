@@ -1,5 +1,4 @@
-import math
-
+#
 #addition function
 def add (num1, num2):
     return num1 + num2
@@ -24,6 +23,7 @@ def square (num1):
 select = int(input("Select Options from 1-Add., 2-Sub., 3-Mult., 4-Div., 5-Square :"))
 
 number_1 = int(input("Enter Your First number: "))
+#after entering your first number, the script will immediately direct you to the following l=menu directly below
 number_2 = int(input("Enter Your Second number: "))
 
 if select == 1:
@@ -43,3 +43,4 @@ elif select == 5:
 
 else:
         print ("Incorrect Input")
+        
